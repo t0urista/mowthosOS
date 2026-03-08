@@ -20,7 +20,7 @@ from pymammotion.aliyun.cloud_gateway import CloudIOTGateway, SetupException
 from pymammotion.aliyun.model.dev_by_account_response import Device
 from pymammotion.data.model.device import MowingDevice
 from pymammotion.data.model.enums import ConnectionPreference
-from pymammotion.data.state_manager import StateManager
+from pymammotion.data.mower_state_manager import MowerStateManager
 from pymammotion.http.http import MammotionHTTP
 from pymammotion.http.model.camera_stream import StreamSubscriptionResponse, VideoResourceResponse
 from pymammotion.http.model.http import Response
